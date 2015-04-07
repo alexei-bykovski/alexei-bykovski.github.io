@@ -73,9 +73,9 @@ h1, h2, h3, h4, h5, h6 {
 	.button-variant(white; @brand-primary; @brand-primary);
 	.heading-font;
 	font-weight: 700;
-	border-radius: 3px;
 	font-size: 18px;
 	padding: 20px 40px;
+    border-radius: 0;
 }
 
 // Custom Navigation Bar
@@ -148,9 +148,6 @@ h1, h2, h3, h4, h5, h6 {
 	        -moz-transition: all 0.3s;
 	        transition: all 0.3s;
 	    }
-		.navbar-nav>.active>a {
-			border-radius: 3px;
-		}
     }
     .navbar-default.navbar-shrink {
     	background-color: @gray-darkest;
@@ -283,8 +280,8 @@ section {
                     h4 {
                         margin: 0;
                     }
-                }                
-            }            
+                }
+            }
         }
         .portfolio-caption {
         	max-width: 400px;

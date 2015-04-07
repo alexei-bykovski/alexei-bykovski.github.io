@@ -101,9 +101,9 @@ fieldset[disabled] .btn-primary.active {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px;
+  border-radius: 0;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -206,9 +206,6 @@ fieldset[disabled] .btn-xl.active {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-  }
-  .navbar-default .navbar-nav > .active > a {
-    border-radius: 3px;
   }
   .navbar-default.navbar-shrink {
     background-color: #222222;
