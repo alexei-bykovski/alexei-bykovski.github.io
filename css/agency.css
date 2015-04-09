@@ -602,6 +602,19 @@ section#contact .contact-form {
   float: none;
   margin: 0 auto;
 }
+section#about .section-heading {
+  margin-bottom: 20px;
+}
+section#about .about_wrapper {
+  float: none;
+  margin: 0 auto;
+}
+section#about .about_wrapper .about_photo {
+  margin-top: 5px;
+}
+section#about .about_wrapper .about_photo img {
+  width: 200px;
+}
 footer {
   padding: 25px 0;
   text-align: center;
