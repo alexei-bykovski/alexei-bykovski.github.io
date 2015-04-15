@@ -1,6 +1,5 @@
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
   color: #777777;
@@ -292,6 +291,9 @@ section h3.section-subheading {
   margin: 15px 0;
   text-transform: none;
 }
+#portfolio .section-heading {
+  margin-bottom: 25px;
+}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -344,8 +346,6 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
   font-size: 16px;
   margin: 0;
 }
@@ -603,17 +603,14 @@ section#contact .contact-form {
   margin: 0 auto;
 }
 section#about .section-heading {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 section#about .about_wrapper {
   float: none;
   margin: 0 auto;
 }
-section#about .about_wrapper .about_photo {
-  margin-top: 5px;
-}
 section#about .about_wrapper .about_photo img {
-  width: 200px;
+  width: 170px;
 }
 footer {
   padding: 25px 0;

@@ -5,7 +5,6 @@
 
 body {
 	overflow-x: hidden;
-	.body-font;
 }
 
 .text-muted {
@@ -244,6 +243,9 @@ section {
 // Portfolio Section
 
 #portfolio {
+    .section-heading {
+      margin-bottom: 25px;
+    }
     .portfolio-item {
         margin: 0 0 15px;
         right: 0;
@@ -294,8 +296,6 @@ section {
         		margin: 0;
         	}
         	p {
-        		.serif-font;
-        		font-style: italic;
         		font-size: 16px;
         		margin: 0;
         	}
@@ -582,14 +582,13 @@ section#contact {
 
 section#about {
   .section-heading {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
   .about_wrapper {
     float: none; margin: 0 auto;
     .about_photo {
-      margin-top: 5px;
       img {
-        width: 200px;
+        width: 170px;
       }
     }
   }
